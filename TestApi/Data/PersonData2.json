@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "first_name": "Cherrita",
+    "last_name": "Southby",
+    "email": "csouthby0@yale.edu"
+  },
+  {
+    "id": 2,
+    "first_name": "Minerva",
+    "last_name": "Hartrick",
+    "email": "mhartrick1@yolasite.com"
+  },
+  {
+    "id": 3,
+    "first_name": "Helge",
+    "last_name": "Janney",
+    "email": "hjanney2@123-reg.co.uk"
+  },
+  {
+    "id": 4,
+    "first_name": "Reta",
+    "last_name": "Rowles",
+    "email": "rrowles3@cbsnews.com"
+  },
+  {
+    "id": 5,
+    "first_name": "Samuel",
+    "last_name": "Gann",
+    "email": "sgann4@naver.com"
+  },
+  {
+    "id": 6,
+    "first_name": "Mignonne",
+    "last_name": "Gumery",
+    "email": "mgumery5@google.co.jp"
+  },
+  {
+    "id": 7,
+    "first_name": "Amity",
+    "last_name": "Santos",
+    "email": "asantos6@salon.com"
+  },
+  {
+    "id": 8,
+    "first_name": "Fay",
+    "last_name": "Rushby",
+    "email": "frushby7@imgur.com"
+  },
+  {
+    "id": 9,
+    "first_name": "Dani",
+    "last_name": "Allden",
+    "email": "dallden8@usnews.com"
+  }
+]

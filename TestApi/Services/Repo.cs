@@ -8,7 +8,7 @@ namespace TestApi.Services
 {
     public class Repo : IRepository
     {
-        static readonly string filecontext = File.ReadAllText("Data/PersonData.json");
+        static readonly string filecontext = File.ReadAllText("Data/PersonData2.json");
         List<Person> persons = JsonSerializer.Deserialize<List<Person>>(filecontext);
 
         public Person GetById(int id)
