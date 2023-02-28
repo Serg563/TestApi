@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
-import ClassCompFetchAll from "./Components/ClassCompFetchAll";
+import ClassCompFetchAll from "./ClassComponents/ClassCompFetchAll";
+import PersonCRUD from "./Components/PersonCRUD";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<ClassCompFetchAll />);
+root.render(
+  <div>
+    <ClassCompFetchAll />
+    <PersonCRUD />
+  </div>
+);
