@@ -11,18 +11,14 @@ namespace TestApi.Services
         static readonly string filecontext = File.ReadAllText("Data/PersonData.json");
         List<Person> persons = JsonSerializer.Deserialize<List<Person>>(filecontext);
 
-
         public Person GetById(int id)
         {
-            return persons.FirstOrDefault(q => q.Id == id);
-          
+            return persons.FirstOrDefault(q => q.Id == id);        
         }
         public IEnumerable<Person> GetAllPersons()
         {
-            return persons.ToList();
-          
+            return persons.ToList();        
         }
-
         public Person Add(Person added)
         {
             persons.Add(added);
